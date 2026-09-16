@@ -19,7 +19,7 @@ export default function Home() {
           <div className="flex gap-6">
             <Link href="/" className="hover:text-blue-200 transition">Accueil</Link>
             <Link href="/products" className="hover:text-blue-200 transition">Produits</Link>
-            <Link href="/cart" className="hover:text-blue-200 transition">Panier</Link>
+            <Link href="/jokes" className="hover:text-blue-200 transition">Blagues 😆</Link>
             <Link href="/contact" className="hover:text-blue-200 transition">Contact</Link>
           </div>
         </div>
@@ -56,7 +56,7 @@ export default function Home() {
             <p className="text-gray-600">Paiements cryptés avec Stripe et PayPal</p>
           </div>
           <div className="bg-white p-8 rounded-lg shadow-lg border-l-4 border-pink-600">
-            <div className="text-4xl mb-4">🎯</div>
+            <div className="text-4xl mb-4">🧠</div>
             <h3 className="text-2xl font-bold mb-2">Intelligent</h3>
             <p className="text-gray-600">Technologie IA la plus avancée</p>
           </div>
